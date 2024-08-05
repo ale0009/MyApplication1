@@ -22,7 +22,7 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
 
         android:id="@+id/bottomNavView"
-        android:layout_width="30dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:itemIconTint="@color/bottom_nav_selector"
         app:layout_constraintStart_toStartOf="parent"
