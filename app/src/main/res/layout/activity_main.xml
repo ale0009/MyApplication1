@@ -7,6 +7,26 @@
     android:fitsSystemWindows="true"
     tools:context=".ui.theme.MainActivity">
 
+    <FrameLayout
+        android:layout_width="0dp"
+        android:background="@color/primaryDark"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/secondary"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:fontFamily="@font/Honk"/>
+
+    </FrameLayout>
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"
@@ -25,6 +45,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:itemIconTint="@color/bottom_nav_selector"
+        app:itemTextColor="@color/bottom_nav_selector"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
