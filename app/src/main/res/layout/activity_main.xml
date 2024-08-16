@@ -23,7 +23,7 @@
             android:textColor="@color/secondary"
             android:layout_gravity="center"
             android:text="@string/app_name"
-            android:fontFamily="@font/Honk"/>
+            android:fontFamily="@font/honk"/>
 
     </FrameLayout>
 

@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.myapplication2.R
 import com.example.myapplication2.databinding.FragmentLuckyBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class LuckyFragment : Fragment() {
 
     private var _binding: FragmentLuckyBinding? = null
