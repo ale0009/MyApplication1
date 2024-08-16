@@ -9,6 +9,7 @@ import com.example.myapplication2.databinding.FragmentHoroscopoBinding
 import dagger.hilt.android.AndroidEntryPoint
 import androidx.fragment.app.viewModels
 
+
 @AndroidEntryPoint
 class HoroscopoFragment : Fragment() {
 
